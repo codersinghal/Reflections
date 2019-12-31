@@ -1,0 +1,108 @@
+Reflection 1
+
+
+
+Ques..
+
+How did viewing a difference between two versions of a file help
+
+you see bug that was introduced?
+
+Ans..
+
+Because we can now compare the changes that we intoduced in the
+
+new version which in turn would help us to know that where we 
+
+might have acccidentally made an error.
+
+
+
+Ques..
+
+How could having easy access to entire history of a file make
+
+you a more efficient programmer?
+
+Ans..
+
+If we have a history of all the versions of a particular file 
+
+then we can see that how the progress was made, also it would be
+
+very handy in case of finding bugs. A record of all versions
+
+can help one to understand his code even after a very long time.
+
+
+
+Ques..
+
+What do you think are the pros and cons of manually choosing 
+
+when to create a commit and when not?
+
+Ans...
+
+Pros
+
+ Commits made by us make some logical sense
+
+ They usually are free of syntatical errors which might be
+
+ introduced by the software which commits automatically.
+
+Cons
+
+ Most of the we humans fail to decide when should they commit and when not.
+
+
+
+Ques...
+
+Why do you think some version control system like Git allow 
+
+saving multiple files in one commit while some like google docs dont?
+
+Ans...
+
+This is probably because the the users of google docs are
+
+normal people who really don't bother about various versions 
+
+whereas the users of Git are software developers who need to 
+
+save time and keep track of multiple files in their projects.
+
+
+
+Ques...
+
+How can you use commands like git log and git diff to view the history of files?
+
+Ans...
+
+We can use command git log to get log of all the commits along
+
+with their commit ID and information about them. Then we can 
+
+use command git diff to view the diff between various commmits.
+
+
+
+Ques...
+
+How might using version control make you more confident to make change that could break something?
+
+Ans...
+
+When we are using version control then we are sure that if at
+
+any point of time any bug gets introduced then we can move back
+
+to a previous version and remove that bug This in turn makes us
+
+more cofident in introducing new changes to our softwares.
+
+
+

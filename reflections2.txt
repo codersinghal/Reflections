@@ -1,0 +1,127 @@
+Reflections
+
+Ques...
+
+What happens when you initialize a repository? Why do you need do it?
+
+Ans...
+
+When we inialize a git repository with the contents of a 
+
+directory then a .git directory is created for keeping the 
+
+track of all the versions of the files inside that directory.
+
+We need to do this so as to tell git to prepare itself for
+
+keeping track of various versions of that repsitory.
+
+
+
+Ques...
+
+How is staging area different from the working directory and the repository? What value do you think it offes?
+
+Ans...
+
+Staging area is entirely different from working directory, 
+
+Staging area have only those files which are being tracked
+
+by the git. Staging area is a kind of stage for making commit
+
+we add files to staging area so that we can control that which 
+
+version of our files do we actually want to keep in our
+
+snapshots. A repository is where git stores meta data and
+
+object database for our project.
+
+
+
+Ques...
+
+How can you use staging area to make sure that you have one commit per logical change?
+
+Ans...
+
+Whenever we stage some files then we should keep in mind that
+
+that we stage files only in such a manner that it represents 
+
+just one logical change. Using this approach will help us 
+
+following the logic of one commit per logical change.
+
+
+
+Ques...
+
+What are some situations when branches would be helpful in
+
+keeping your history organised? How would branches help?
+
+Ans...
+
+There sre some situations when like when we need to experiment 
+
+on your code version or we need to build two different versions 
+
+based on same previous versions in that case branching helps a lot.
+
+
+
+Ques...
+
+How do diagram help you visualise the branch structure?
+
+Ans...
+
+With the help of a diagram we can get a clear view of where we 
+
+are and which commits are acessible from this point.
+
+
+
+Ques...
+
+What is the result of merging two branches together? Why do we
+
+represent it in the daigram the way we do?
+
+Ans...
+
+Whenerver we merge two brances we get a final commit 
+
+containing features from both the branches, and minimal number
+
+of bugs. We represent the diagram in this way because it 
+
+helps us easily understand that at which point the two branches 
+
+merged and what changes were introduced in the final commit. 
+
+
+
+Ques...
+
+What are the pros and cons of git automatic merging vs always 
+
+doing manaual merges?
+
+Ans...
+
+Pros
+
+It saves a lot of precious programmers time.
+
+Combining huge code becomes a pretty easy task.
+
+Cons
+
+Sometimes so many merge conflicts occur that it becomes an 
+
+headache for a programmer to resolve them all.
+
+Many times a new kind of bug gets introduced. 
